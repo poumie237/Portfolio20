@@ -239,8 +239,7 @@ section {
 }
   
 .a-propos .partie .info-contenu .box-contenu .box h3 span {
-    color: var(--description);
-    font-weight: lighter;
+    color: var(--crimson);
 }
   
 .a-propos .partie .compte-contenu {
