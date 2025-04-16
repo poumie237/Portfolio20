@@ -1,558 +1,495 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Deschanel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Leven - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="Deschanel" />
 
-    <!-- style css -->
-    <link rel="stylesheet" href="style.css">
 
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+
+    <script src="js/modernizr.custom.js"></script>
+
+
+  </head>
+
+  <body class="page">
+
+    <div class="lm-animated-bg"></div>
     
-
-    <!-- Debut de la section navbar -->
-
-    <nav class="navbar">
-        <a href="#accueil"> <i class="fas fa-home"></i> <span>Accueil</span> </a>
-        <a href="#a-propos"> <i class="fas fa-user"></i> <span>A propos</span> </a>
-        <a href="#portfolio"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
-        <a href="#blogs"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
-        <a href="#contacts"> <i class="fas fa-address-book"></i> <span>contacts</span> </a>
-    </nav>
-
-    <!-- Fin de la section navbar -->
-
-    <!-- Debut de la section accueil -->
-
-    <section class="accueil" id="accueil">
-
-        <div class="image">
-            <img src="images/ii.png" alt="">
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
-    
-        <div class="contenu">
-            <h3>Salut, je suis Deschanel</h3>
-            <span>Informaticien - Trader</span>
-            <p>Je suis passionné par les systèmes informatiques ainsi que par d'autres domaines tels que la robotique et l'intelligence artificielle.</p>
-            <a href="#a-propos" class="btn"> A propos de moi <i class="fas fa-user"></i> </a>
-        </div>
-    
-    </section>
+      </div>
+    </div>
+    <!-- /Loading animation -->
 
-    <!-- Fin de la section accueil -->
+    <!-- Scroll vers le haut -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll vers le haut -->
 
-    <!-- Debut de la section a propos -->
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
-    <section class="a-propos" id="a-propos">
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-symbol">P</div>
+                <div class="logo-text">Poumie <span>Deschanel</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
 
-        <h1 class="titre"> A propos de <span>Moi</span> </h1>
-    
-        <div class="partie">
-    
-            <div class="info-contenu">
-    
-                <h1>Infos Personelles</h1>
-    
-                <div class="box-contenu">
-    
-                    <div class="box">
-                        <h3> <span>Nom : </span> POUNGAGNIGNI POUMIE </h3>
-                        <h3> <span>Prenom: </span> ROSIER DESCHANEL </h3>
-                        <h3> <span>Age : </span> 20 </h3>
-                        <h3> <span>Email : </span> deschaneljackson118@gmail.com </h3>
-                        <h3> <span>Addresse : </span> Douala/Cameroun </h3>
-                    </div>
-        
-                    <div class="box">
-                        <h3> <span>Freelance : </span> Disponible </h3>
-                        <h3> <span>Competences : </span> Informatique, Trading </h3>
-                        <h3> <span>Experience : </span> 1 an </h3>
-                        <h3> <span>Langue : </span> francais, anglais </h3>
-                        <h3> <span>Artiste prefere : </span> Micheal Jackson</h3>
-                    </div>
-    
-                </div>
-    
-                <a href="images/cv.pdf" class="btn"> Telecharger le CV <i class="fas fa-download"></i> </a>
-    
-            </div>
-    
-            <div class="compte-contenu">
-    
-                <div class="box">
-                    <h3>1+</h3>
-                    <p>ans d'experience</p>
-                </div>
-    
-                <div class="box">
-                    <h3>0+</h3>
-                    <p>Clients satisfait (Pas pour le moment) </p>
-                </div>
-    
-                <div class="box">
-                    <h3>6+</h3>
-                    <p>project complet</p>
-                </div>
-    
-                <div class="box">
-                    <h3>0+</h3>
-                    <p>Prix remportes (Pas pour le moment)</p>
-                </div>
-    
-            </div>
-    
-        </div>
-    
-    </section>
-    
-    <!-- fin de la section a propos -->
-    
-    <!-- Debut de la section competence  -->
-    
-    <section class="competences">
-    
-        <h1 class="titre"> <span>Mes</span> Competences </h1>
-    
-        <div class="box-contenu">
-            <div class="box">
-                <img src="images/icon-1.png">
-                <h3>html</h3>
-            </div>
-            <div class="box">
-                <img src="images/icon-2.png">
-                <h3>css</h3>
-            </div>
-            <div class="box">
-                <img src="images/icon-3.png">
-                <h3>javascript</h3>
-            </div>
-            <div class="box">
-                <img src="images/satoru_gojo_4k_hd_jujutsu_kaisen-3840x2160-removebg-preview.png">
-                <h3>dessin 2D</h3>
-            </div>
-            <div class="box">
-                <img src="images/modele-3d.png">
-                <h3>animation 3D</h3>
-            </div>
-            <div class="box">
-                <img src="images/trading-toro-removebg-preview.png">
-                <h3>Trading</h3>
-            </div>
-        </div>
-    
-    </section>
-    
-    <!-- Fin de la section competence -->
-    
-    <!-- Debut de la section education  -->
-    
-    <section class="education">
-    
-        <h1 class="titre"> <span>Mon</span> Education </h1>
-    
-        <div class="box-contenu">
-    
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2015 - 2023</span>
-                <h3>Lyceen </h3>
-                <p>Le secondaire, a ete un petit tremplin essentiel qui a façonne mon avenir, où chaque défi et chaque succès m'aident à construire mon identité et mes rêves. ( Mais le secondaire ne ma pas permit de mieu comprendre mon identite )</p>
-            </div>
-    
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2023 - 2025 +</span>
-                <h3>Trader Intermediere</h3>
-                <p>Après 1,5 ans de formation intensive, le chemin d'un trader non rentable est une véritable odyssée de persévérance et d'apprentissage continu, où chaque échec est une leçon précieuse et chaque petit progrès une lueur d'espoir vers la réussite. ( Je reste confiant et je continu )</p>
-            </div>
-    
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2024 - 2025</span>
-                <h3>Etudiant</h3>
-                <p>Étudiant en génie logiciel, je me prépare avec passion et détermination pour réaliser des projets elegants futuristes qui façonneront le monde de demain. ( C'est excitant !!! )</p>
-            </div>
-    
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2025 - + </span>
-                <h3>Avenir </h3>
-                <p>Étudiant en génie logiciel, je me prépare avec passion et détermination pour réaliser des projets futuristes qui façonneront le monde de demain, bien que mon avenir soit un sujet que je préfère garder pour moi pour l'instant.</p>
-            </div>
-    
-            <!--<div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2019 - 2020</span>
-                <h3>front-end development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-            </div>
-    
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020 - 2021</span>
-                <h3>front-end development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo magni est quo vitae quis veritatis fugiat optio placeat enim!</p>
-            </div>-->
-    
-        </div>
-    
-    </section>
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item current-menu-item">
+                  <a href="index.html">A Propos De Moi</a>
+                </li>
 
-    <!-- Fin de la section education  -->
+                <li class="menu-item">
+                  <a href="resume.html">Mon Parcours</a>
+                </li>
 
-    <!-- Debut de la section portfolio -->
+                <li class="menu-item">
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+                
+                <li class="menu-item">
+                  <a href="blog.html">Blog</a>
+                </li>
 
-    <section class="portfolio" id="portfolio">
+                <li class="menu-item">
+                  <a href="trading.html">Trading</a>
+                </li>
 
-        <h1 class="titre"> <span>Mon</span> Travail </h1>
-    
-        <div class="box-contenu">
-    
-            <div class="box">
-                <img src="images/site resto accueil.png" alt="">
-                <div class="contenu">
-                    <h3>project 01</h3>
-                    <p>Site pour restaurant .</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/tesla3.png" alt="">
-                <div class="contenu">
-                    <h3>project 02</h3>
-                    <p>Model tesla 3D.</p>
-                </div>
-            </div>
-           
-            <div class="box">
-                <img src="images/tel.png" alt="">
-                <div class="contenu">
-                    <h3>project 03</h3>
-                    <p>Petit model telephone.</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/pelleteuse3.png" alt="">
-                <div class="contenu">
-                    <h3>project 04</h3>
-                    <p>.</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/trader.jpeg" alt="">
-                <div class="contenu">
-                    <h3>project 05</h3>
-                    <p> Pelleteuse 3D non terminer </p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <img src="images/code.png" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p> L'apprentissage continue en trading </p>
-                </div>
+                <li class="menu-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
 
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p> Programmation web intermediere </p>
-                </div>
-            </div>
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
 
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="" alt="">
-                <div class="contenu">
-                    <h3>project 06</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, praesentium.</p>
-                </div>
-            </div>
-    
-        </div>
-    
-        
-        
-    </section>
-
-    <!-- Fin de la section portfolio -->
-
-    <!-- Debut de la section blogs -->
-
-
-    <section class="blogs" id="blogs">
-
-        <h1 class="titre"> <span>MON</span> blogs </h1>
-    
-        <div class="box-contenu">
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/Design sans titre.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i> 30 juin 2023 </a>
-                        <a href="#"> <i class="fas fa-user"></i> par l'admin </a>
-                    </div>
-                    <h3>Debut de la formation en trading</h3>
-                    <p>Objectif: me faire une place dans le milieu</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/GOLD_2025-02-08_01-24-27.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i> 6 fevrier 2025 </a>
-                        <a href="#"> <i class="fas fa-user"></i> par l'admin </a>
-                    </div>
-                    <h3> Position sur l'or </h3>
-                    <p>Une belle position sur l'or</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/DXY_2025-02-14_19-06-38.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>  </a>
-                        <a href="#"> <i class="fas fa-user"></i> par l'admin </a>
-                    </div>
-                    <h3>  </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/IMG_20240513_230256.jpg" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>    </a>
-                        <a href="#"> <i class="fas fa-user"></i>    </a>
-                    </div>
-                    <h3>  </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/CITATION 2.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>    </a>
-                        <a href="#"> <i class="fas fa-user"></i>     </a>
-                    </div>
-                    <h3>   </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-    
-            <div class="box">
-                <div class="image">
-                    <img src="images/blog6.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>   </a>
-                        <a href="#"> <i class="fas fa-user"></i>   </a>
-                    </div>
-                    <h3>   </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/IMG_20240512_235850.jpg" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>   </a>
-                        <a href="#"> <i class="fas fa-user"></i>  </a>
-                    </div>
-                    <h3>   </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/tesla2.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>   </a>
-                        <a href="#"> <i class="fas fa-user"></i>    </a>
-                    </div>
-                    <h3>  </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/site resto suite 3.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>   </a>
-                        <a href="#"> <i class="fas fa-user"></i>   </a>
-                    </div>
-                    <h3>   </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/pelleteuse2.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>    </a>
-                        <a href="#"> <i class="fas fa-user"></i>    </a>
-                    </div>
-                    <h3>  .</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/warren buffet.webp" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>    </a>
-                        <a href="#"> <i class="fas fa-user"></i>    </a>
-                    </div>
-                    <h3>    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/blog6.png" alt="">
-                </div>
-                <div class="contenu">
-                    <div class="icons">
-                        <a href="#"> <i class="fas fa-calendar"></i>    </a>
-                        <a href="#"> <i class="fas fa-user"></i>    </a>
-                    </div>
-                    <h3>  </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, illum.</p>
-                </div>
-            </div>
-    
-        </div>
-    
-    </section>
-
-    <!-- Fin de la section blogs -->
-
-    <!-- Debut contact -->
-
-    <section class="contact" id="contacts">
-
-        <h1 class="titre"> <span>Mon</span> Contact </h1>
-        
-        <div class="partie">
-        
-            <div class="info-contenu">
-        
-                <h1> Contactez-moi</h1>
-        
-                <p>Je suis disponible pour toute collaboration ou autre demande. N'hésitez pas à me contacter.</p>
-        
-                <div class="box-contenu">
-        
-                    <div class="box">
-                        <i class="fas fa-map"></i>
-                        <div class="info">
-                            <h3>address :</h3>
-                            <p>DOUALA, CAMEROUN - BONAPRISO</p>
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">    
+              <div id="content" class="page-content site-content single-post" role="main">
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12">
+                    <div class="home-content">
+                      <div class="row flex-v-align">
+                        
+                        <div class="col-sm-12 col-md-5 col-lg-5">
+                          <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(img/IMG_20241225_191350-removebg-pre\ \(1\).png);">
+                            </div>
+                          </div>
                         </div>
-                    </div>
+
+                        <div class="col-sm-12 col-md-7 col-lg-7">
+                          <div class="home-text hp-left">
+                            <div class="owl-carousel text-rotation">                                    
+                              <div class="item">
+                                <h4>Developpeur-Web-FrontEnd</h4>
+                              </div>
         
-                    <div class="box">
-                        <i class="fas fa-envelope"></i>
-                        <div class="info">
-                            <h3>email :</h3>
-                            <p>deschaneljakson118@gmail.com</p>
+                              <div class="item">
+                                <h4>Trader</h4>
+                              </div>
+                            </div>
+                              
+                            <h1>Poumie Deschanel</h1>
+                            <p>Je suis passionné par les systèmes informatiques ainsi que par d'autres domaines tels que la robotique et l'intelligence artificielle.</p>
+                                 
+                            <div class="home-buttons">
+                              <a href="img/Poumie Deschanel.pdf" target="_blank" class="btn btn-primary">Télécharger le CV</a>
+                              <a href="contact.html" target="_self" class="btn btn-secondary">Contact</a>
+                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-        
-                    <div class="box">
-                        <i class="fas fa-phone"></i>
-                        <div class="info">
-                            <h3>number :</h3>
-                            <p>+237 656807151</p>
-                        </div>
-                    </div>
-        
+                  </div>
                 </div>
-        
+                <!-- accueil partie -->
+
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>Ce que je fais</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div>
+      
+                        <div class="ci-text">
+                          <h4>Dessin</h4>
+                          <p></p>
+                        </div>
+                      </div>
+    
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-display"></i>
+                        </div>
+     
+                        <div class="ci-text">
+                          <h4>Dévéloppement Web</h4>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-banknote"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Trading</h4>
+                          <p></p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-settings"></i>
+                        </div>
+
+                        <div class="ci-text">
+                          <h4>Maintenance</h4>
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services -->
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-20"></div>
+
+                    <!-- Témoignages -->
+                    <div class="block-title">
+                      <h2>Témoignages</h2>
+                    </div>
+
+                    <div id="testimonials_1" class="testimonials owl-carousel" data-mobile-items="1" data-tablet-items="2" data-items="2">
+                      <!-- Témoignages 1 -->
+                      <div class="testimonial-item">
+                        <!-- Témoignages Contenue -->
+                        <div class="testimonial-content">
+                          <!-- Photo -->
+                          <div class="testimonial-picture">
+                            <img src="" alt=""/>
+                          </div>              
+                          <!-- /Photo -->
+
+                          <!-- Témoignages Text -->
+                          <div class="testimonial-text">
+                             <p>Pas encore</p>
+                          </div>
+                          <!-- /Témoignages Text -->
+
+                          <!-- Témoignages information de l'auteur -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"></h5>
+                            <p class="testimonial-firm"></p>
+                          </div>
+                          <!-- /Témoignages information de l'auteur -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Témoignages Contenue -->
+                      </div>
+                      <!-- fin Testimonial 1 -->
+
+                      <!-- Testimonial 1 -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src="" alt=""/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>Pas encore</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"></h5>
+                            <p class="testimonial-firm"></p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- End of Testimonial 1 -->
+
+                      <!-- Testimonial 1 -->
+                      <div class="testimonial-item">
+                        <!-- Testimonial Content -->
+                        <div class="testimonial-content">
+                          <!-- Picture -->
+                          <div class="testimonial-picture">
+                            <img src="" alt=""/>
+                          </div>              
+                          <!-- /Picture -->
+
+                          <!-- Testimonial Text -->
+                          <div class="testimonial-text">
+                             <p>Pas encore</p>
+                          </div>
+                          <!-- /Testimonial Text -->
+
+                          <!-- Testimonial author information -->
+                          <div class="testimonial-author-info">
+                            <h5 class="testimonial-author"></h5>
+                            <p class="testimonial-firm"></p>
+                          </div>
+                          <!-- /Testimonial author information -->
+
+                          <div class="testimonial-icon">
+                            <i class="fa fa-quote-left"></i>
+                          </div>
+
+                           <div class="testimonial-icon-big">
+                            <i class="fa fa-quote-right"></i>
+                          </div>
+                        </div>
+                        <!-- /Testimonial Content -->
+                      </div>
+                      <!-- End of Testimonial 1 -->
+                    </div>
+                    <!-- /Testimonials -->
+
+                    <div class="p-40"></div>
+
+                    <!-- Clients Slider -->
+                    <div class="block-title">
+                      <h2>Clients</h2>
+                    </div>
+
+                    <div id="clients_1" class="clients owl-carousel" data-mobile-items="1" data-tablet-items="3" data-items="6">
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="IME">
+                          <img src="img/clients/client-6.png" alt="IME">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+
+                      <div class="client-block">
+                        <a href="#" target="_blank" title="">
+                          <img src="" alt="">
+                        </a>
+                      </div>
+                    </div>
+                    <!-- /Clients Slider -->
+
+                    <div class="p-40"></div>
+
+                  </div>
+                </div>
+
+                <!-- Fun Facts -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="block-title">
+                      <h2>Travail</h2>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-3">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-heart"></i>
+                      <h4>Clients satisfaits</h4>
+                      <span class="lm-info-block-value">2</span>
+                      <span class="lm-info-block-text">🙂</span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-clock"></i>
+                      <h4>Heures de travail</h4>
+                      <span class="lm-info-block-value">622</span>
+                      <span class="lm-info-block-text">😁</span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-star"></i>
+                      <h4>Prix remportés</h4>
+                      <span class="lm-info-block-value">0</span>
+                      <span class="lm-info-block-text">😒</span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-paperplane"></i>
+                      <h4>Connexion consommées </h4>
+                      <span class="lm-info-block-value">522 Go</span>
+                      <span class="lm-info-block-text">🌚</span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-diamond"></i>
+                      <h4>Revenue Genere</h4>
+                      <span class="lm-info-block-value">$ 0</span>
+                      <span class="lm-info-block-text">😑</span>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-3 ">
+                    <div class="lm-info-block gray-default">
+                      <i class="linecons linecons-study"></i>
+                      <h4>Livres lus</h4>
+                      <span class="lm-info-block-value">15</span>
+                      <span class="lm-info-block-text">😁</span>
+                    </div>
+                  </div>
+
+                </div>
+
+                
+                <!-- /Fun Facts -->
+
+                <div class="p-40"></div>
+
+              </div>
+
+              </div>
             </div>
+          </div>
         </div>
-    </section>
 
-    <!-- Debut contact -->
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="#" target="_blank">Twitter</a>
+              </li>
 
-    <!-- Debut footer -->
+              <li>
+                <a href="#" target="_blank">Facebook</a>
+              </li>
 
-    <footer>
-        <div class="contenu">
-            <h3 class="titre"> <span>Merci</span> </h3>
-            <p> © copyright 2025 by Deschanel</p>
-        </div>
-    </footer>
-    <!-- Fin footer -->
+              <li>
+                <a href="#" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>© 2025 All rights reserved. Deschanel.</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+        
+      </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
